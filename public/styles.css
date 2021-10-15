@@ -1,0 +1,116 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color:rgb(239 189 63);
+  font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+
+#banner{
+  width: 40em;
+}
+
+
+img{
+  width: 20em;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.name{
+  height:3em;
+  width: 8em;
+  border:none;
+  font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+.intention{
+  height:3em;
+  width: 16em;
+  border:none;
+  font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+button{
+  width: 5em;
+  height: 3em;
+  border: none;
+  text-transform: uppercase;
+  background-color: rgb(224 161 60);
+}
+
+
+.hide{
+  display:none;
+}
+
+
+.wrapper{
+  display: inline-block;
+  width: 33.5em;
+  text-transform: uppercase;
+
+}
+
+.tweets{
+  padding-left: none;
+}
+
+.tweet{
+  list-style: none;
+  height: 6em;
+  background-color: lightyellow;
+  border: 1px solid rgb(224 161 60);
+  margin-bottom: 2em;
+  width: 30em;
+
+}
+
+.userName{
+  border: 1px solid rgb(224 161 60);
+  display: block;
+  background-color: rgb(224 161 60);
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+}
+
+.userName a{
+    color: lightyellow;
+    text-decoration: none;
+}
+
+
+.userName a:hover {
+  color:black; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
