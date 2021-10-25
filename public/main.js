@@ -33,6 +33,7 @@ Array.from(heart).forEach(function(element) {
 
 Array.from(trash).forEach(function(element) {
       element.addEventListener('click', function(){
+        console.log(this.parentNode.parentNode.childNodes[7].innerText)
         const id = this.parentNode.parentNode.childNodes[7].innerText
         fetch('tweet', {
           method: 'delete',
@@ -40,7 +41,7 @@ Array.from(trash).forEach(function(element) {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            'id': id
+            'id': id,
           })
         }).then(function (response) {
           window.location.reload()
